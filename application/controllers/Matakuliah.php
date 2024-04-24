@@ -20,9 +20,9 @@ class Matakuliah extends CI_Controller
         $this->form_validation->set_rules('sks', 'SKS',
         'required',['required'=> 'SKS Harus Diisi']);
     
-        if ($this->form_validation->run() !=true) {
+        if ($this->form_validation->run() != true) {
             $this->load->view('view-form-matakuliah');
-        }else{
+        } else {
             $data = [
                 'kode' => $this->input->post('kode'),
                 'nama' => $this->input->post('nama'),
