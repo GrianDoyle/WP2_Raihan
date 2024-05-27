@@ -89,7 +89,7 @@ $autoload['drivers'] = array();
 |
 |	$autoload['helper'] = array('url', 'file');8h
 */
-$autoload['helper'] = array('url');
+$autoload['helper'] = array('url','pustaka');
 
 /*
 | -------------------------------------------------------------------
